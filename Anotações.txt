@@ -1,0 +1,15 @@
+// Código para criar um Component
+ng generate component pasta/NomeComponente
+
+// Código para criar um Module
+ng generate module Funcionalidade
+
+// Código para listar as opções
+ng new --help
+
+// No redirecionamento de rota do angular
+Obs: path: '' quando não informado a pagina que vai 
+Obs: redirectTo: '/home' redirecionando para a home
+Obs: pathMatch: 'full' redirecionando porém com a url completa e não apenas o /home após o http://localhost:4200
+
+ { path: '', redirectTo: '/home', pathMatch: 'full'},
